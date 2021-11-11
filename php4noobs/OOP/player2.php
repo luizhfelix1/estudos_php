@@ -5,7 +5,7 @@ class Player
 
     public string $username;
     private string $password;
-    protected float $money;
+    public float $money;
 
     /**
     * Método mágivo: construtor
@@ -23,5 +23,6 @@ class Player
 // Instancia sem o valor do atributo username e o money
 $danielhe4rt = new Player('secret123');
 
-$danielhe4rt->username; // danielhe4rt
-$danielhe4rt->money; //1500.0
+echo $danielhe4rt->username; // danielhe4rt
+echo $danielhe4rt->money; //1500.0
+
